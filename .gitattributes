@@ -1,0 +1,1 @@
+data/class2024/reduced_pointclouds/scan000_projection_equirectangular/scan000.3d filter=lfs diff=lfs merge=lfs -text
