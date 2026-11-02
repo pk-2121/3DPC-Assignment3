@@ -25,7 +25,7 @@ capture_result() {
   name=$1
   "$SHOW" --no-config -s 0 -e 0 \
     --screenshot \
-    --screenshot-filename "$RESULTS_DIR/${name}.png" \
+    --screenshot-filename "$RESULTS_DIR/${name}.jpg" \
     "$RESULTS_DIR/$name"
 }
 
